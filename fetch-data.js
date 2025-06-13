@@ -34,3 +34,6 @@ async function fetchUserData() {
         dataContainer.innerHTML = 'Failed to load user data.';
     }
 }
+
+// Run the function when the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', fetchUserData);
