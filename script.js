@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
             feedbackDiv.style.backgroundColor = "#d4edda"; // Light green background
         } else {
             feedbackDiv.innerHTML = messages.join("<br>");
-            feedbackDiv.style.color = "#d8000c"; // Red
+            feedbackDiv.style.color = "#dc3545""; // Red
             feedbackDiv.style.backgroundColor = "#ffbaba"; // Light red background
         }
     });
